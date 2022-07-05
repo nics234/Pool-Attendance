@@ -1,4 +1,4 @@
-# Pool-Attendance
+# Pool-Attendance project
 This repository contains all the steps undertaken to build and establsh the pool attendance forecasting. 
 
 
