@@ -16,10 +16,11 @@ US Holiday data is derived from:
 
 # Approach 
 1. Enrich Data\n
-  a. Get information about holidays in the U.S.\n
-  b. Get latitude and longtitude of the pool location\n
-  c. Get weather on said date --> based on the region
-  d. Get information about maximum pool capacity
+  a. Get weekday
+  b. Get information about holidays in the U.S.\n
+  c. Get latitude and longtitude of the pool location\n
+  d. Get weather on said date --> based on the region
+  e. Get information about maximum pool capacity
   
  2. Build prediction model 
   a. Extract relevant information 
