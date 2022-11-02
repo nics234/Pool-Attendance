@@ -19,5 +19,11 @@ US Holiday data is derived from:
   a. Get information about holidays in the U.S.\n
   b. Get latitude and longtitude of the pool location\n
   c. Get weather on said date --> based on the region
+  d. Get information about maximum pool capacity
   
+ 2. Build prediction model 
+  a. Extract relevant information 
+  b. Build regression NN to predict attendance for specific day 
+  
+ 3. Build 
   
