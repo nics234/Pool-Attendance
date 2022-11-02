@@ -8,6 +8,7 @@ path = config.path
 pool_data = pd.read_csv(path, sep =";")
 
 class DataTransformer()
+'''Function to enrich the generic dataset with additional information such as day of week and holiday.'''
   def __init__(self, pool_data):
     self.pool_data = pool_data
   
@@ -24,16 +25,25 @@ class DataTransformer()
     
     
     
+    
   def Holidaygetter(self):
     
+    
+  def write_enriched_data(self):
+    
+    
+    
   class HistoricWeather()
+  '''Function to get the coordinates for a specific location and to get the historic weather data on any given 
+  
+  
     
   def get_lat_lon(self):
     address = "Brooklyn Betsy Head park"
     url = 'https://nominatim.openstreetmap.org/search/' + urllib.parse.quote(address) +'?format=json'
     response = requests.get(url).json()
-    lat = response[0]["lat"]
-    lon = response[0]["lon"]
+    lat = float(response[0]["lat"])
+    lon = float(response[0]["lon"])
     
   def get_weather info
   API = https://open-meteo.com/en/docs/historical-weather-api
