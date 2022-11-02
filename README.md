@@ -10,4 +10,5 @@ Based on the selection of the location a weather-forecast will be generated and 
 NYC Pool Attendance data is derived from: 
 Historical weater data is derived from: 
 Weather forecast data is derived from: 
+US Holiday data is derived from:
 
