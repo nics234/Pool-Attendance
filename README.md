@@ -25,5 +25,7 @@ US Holiday data is derived from:
   a. Extract relevant information 
   b. Build regression NN to predict attendance for specific day 
   
- 3. Build 
+ 3. By location of a person
+  a. get 3 closest pools 
+  b. get respective attendance and attendance percentage 
   
