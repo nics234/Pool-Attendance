@@ -12,3 +12,12 @@ Historical weater data is derived from:
 Weather forecast data is derived from: 
 US Holiday data is derived from:
 
+
+
+# Approach 
+1. Enrich Data
+  a. Get information about holidays in the U.S.
+  b. Get latitude and longtitude of the pool location 
+  c. Get weather on said date --> based on the region 
+  
+  
